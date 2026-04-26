@@ -71,6 +71,7 @@ data Shape = Circle | Rectangle | Triangle
 - Цифры в начале имени типа или конструктора
 
 ## Диаграмма состояний
+<img width="961" height="818" alt="image" src="https://github.com/user-attachments/assets/bd3d3770-b7e0-4c95-acf7-76de07bf0ddb" />
 
 ## Тестовые примеры
 
