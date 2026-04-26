@@ -53,3 +53,28 @@ data Season = Spring | Summer | Autumn | Winter
 data Weekday = Mon | Tue | Wed | Thu | Fri
 data Shape = Circle | Rectangle | Triangle
 ```
+
+## Перечень допустимых лексем:
+
+| Лексема | Описание | Пример | 
+|----------|----------|----------|
+| `DATA` | Ключевое слово data | `data` |
+| `TYPE` | Имя типа (начинается с заглавной буквы) | `Day`, `Color`, `Bool` |
+| `EQUALS` | Знак равенства | `=` |
+| `CONSTRUCTOR` | Имя конструктора (начинается с заглавной) | `Monday`, `Red`, `True` |
+| `PIPE` | Разделитель | `|` |
+| `COMMENT` | Комментарий | `-- комментарий` |
+| `SEMICOLON` | Разделитель объявлений | `;` |
+
+**Недопустимые символы:**
+- @, #, $, %, ^, &, * (специальные символы)
+- Цифры в начале имени типа или конструктора
+
+## Диаграмма состояний
+
+## Тестовые примеры
+
+<img width="798" height="916" alt="image" src="https://github.com/user-attachments/assets/098c1419-caf0-4ee6-b635-3fdbc8b92003" />
+
+<img width="910" height="929" alt="image" src="https://github.com/user-attachments/assets/0582b8e4-f77c-4ef7-9324-23b6f4949628" />
+
